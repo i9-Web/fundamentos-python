@@ -5,7 +5,6 @@
 #============================================================
 #Entrada de dados
 numero = -1
-
 while numero != 0:
     numero = int(input("Infome um número inteiro ou 0 para sair: "))
     if numero != 0:

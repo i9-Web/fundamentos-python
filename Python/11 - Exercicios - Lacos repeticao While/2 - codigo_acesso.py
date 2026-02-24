@@ -1,6 +1,6 @@
 #============================================================
 #Algoritmo que peça o código de acesso ao usuário enquanto o 
-# código digitado for diferente do código de controle (123456)
+# código digitado for diferente do código de controle(123456)
 #============================================================
 print("----------- Sistema de controle de acesso -----------")
 #Entrada de dados
@@ -14,4 +14,3 @@ while True:
         break
     else: 
         print("Código INCORRETO! Tente novamente.\n")
-        
