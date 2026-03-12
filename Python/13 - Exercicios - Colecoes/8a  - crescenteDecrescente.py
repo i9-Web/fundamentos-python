@@ -19,9 +19,9 @@ while len(nums_originais) < 16:
         else:
             print("Este número já foi digitado. Tente um diferente!")
     except ValueError:
-        print("Por favor, digite apenas números inteiros.")
 
 # Matriz na ordem digitada
+        print("Por favor, digite apenas números inteiros.")
 matriz_original = [
                     nums_originais[i:i+4] for i in range(0, 16, 4)
                   ]
